@@ -1,7 +1,7 @@
 import "./App.css";
 import Layout from "./components/Layout/Layout";
-import Resume from "./components/Resume/Resume";
-import CV from "./components/CV/CV";
+import Resume from "./components/pages/Resume/Resume";
+import CV from "./components/pages/CV/CV";
 
 import { Route, Redirect, Switch } from "react-router-dom";
 

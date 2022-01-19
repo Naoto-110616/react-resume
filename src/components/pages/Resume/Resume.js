@@ -1,8 +1,8 @@
 import classes from "./Resume.module.css";
 
-import Profile from "../module/Profile/Profile";
-import SelfIntroduction from "../module/SelfIntroduction/SelfIntroduction";
-import JobHistory from "../module/JobHistory/JobHistory";
+import Profile from "../../module/Profile/Profile";
+import SelfIntroduction from "../../module/SelfIntroduction/SelfIntroduction";
+import JobHistory from "../../module/JobHistory/JobHistory";
 
 const Resume = () => {
 	return (
