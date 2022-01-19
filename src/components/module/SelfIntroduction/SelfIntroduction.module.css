@@ -1,0 +1,11 @@
+.self-introduction {
+	text-align: left;
+}
+.name {
+	font-size: 2rem;
+	color: #b92978;
+	margin: 10px 0 0 0;
+}
+.self-introduction p {
+	margin: 0;
+}

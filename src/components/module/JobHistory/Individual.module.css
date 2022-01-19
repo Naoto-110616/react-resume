@@ -1,0 +1,27 @@
+.individual {
+	display: flex;
+	align-items: baseline;
+}
+.individual div {
+	width: 100%;
+}
+.individual::before {
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #b92978;
+	margin: 0 8px 0 0;
+}
+.individual h3 {
+	color: #b92978;
+	margin: 0;
+}
+.company {
+	display: flex;
+	justify-content: space-between;
+}
+.detail {
+	color: #666;
+}
