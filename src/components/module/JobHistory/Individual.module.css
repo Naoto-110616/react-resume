@@ -1,6 +1,7 @@
 .individual {
 	display: flex;
 	align-items: baseline;
+	margin: 40px 0 0 0;
 }
 .individual div {
 	width: 100%;
@@ -24,4 +25,5 @@
 }
 .detail {
 	color: #666;
+	margin: 0 0 0 0;
 }
