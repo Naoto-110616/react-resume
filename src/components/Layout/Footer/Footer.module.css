@@ -1,0 +1,10 @@
+.footer {
+	background-color: #b92978;
+	border-top: #dd69a8 solid 2px;
+	color: #fff;
+}
+.footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+}

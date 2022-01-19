@@ -1,0 +1,27 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 7%;
+	background-color: #b92978;
+	color: #fff;
+	border-bottom: #dd69a8 solid 2px;
+}
+.header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+.header nav ul li {
+	list-style: none;
+}
+.header a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin: 0 10px;
+}
+
+.header a:active,
+.header a.active {
+	opacity: 0.8;
+}
