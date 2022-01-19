@@ -1,0 +1,35 @@
+.resume {
+	padding: 0 7%;
+}
+.self-introduction {
+	text-align: left;
+}
+.name {
+	font-size: 2rem;
+	color: #b92978;
+	margin: 10px 0 0 0;
+}
+.self-introduction p {
+	margin: 0;
+}
+.self-info {
+	display: flex;
+	text-align: left;
+}
+.contact ul {
+	padding: 0;
+}
+.contact ul li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #a8a8a8;
+}
+.contact svg {
+	font-size: 1.5rem;
+	padding: 8px;
+	background-color: #b92978;
+	color: #fff;
+	border-radius: 25px;
+	margin: 0 10px 0 0;
+}
