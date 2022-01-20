@@ -25,3 +25,8 @@
 .header a.active {
 	opacity: 0.6;
 }
+@media screen and (max-width: 767px) {
+	.header {
+		padding: 0 5%;
+	}
+}
