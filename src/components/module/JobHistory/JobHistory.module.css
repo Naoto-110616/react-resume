@@ -1,4 +1,11 @@
 .job-history {
-	margin: 0 0 0 50px;
-	width: 60%;
+  margin: 0 0 0 50px;
+  width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+  .job-history {
+    margin: 0;
+    width: 100%;
+  }
 }
