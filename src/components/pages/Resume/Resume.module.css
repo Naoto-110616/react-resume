@@ -1,14 +1,17 @@
 .resume {
-  padding: 0 7%;
-  margin: 30px 0 0 0;
+	padding: 0 7%;
+	margin: 30px 0 0 0;
 }
 
 .self-info {
-  display: flex;
-  text-align: left;
+	display: flex;
+	text-align: left;
 }
 @media screen and (max-width: 767px) {
-  .self-info {
-    display: inline;
-  }
+	.resume {
+		padding: 0 5%;
+	}
+	.self-info {
+		display: inline;
+	}
 }

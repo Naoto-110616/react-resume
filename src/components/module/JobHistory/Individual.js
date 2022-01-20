@@ -1,18 +1,19 @@
 import classes from "./Individual.module.css";
 
-const Individual = () => {
+const Individual = (props) => {
+	const work = props.data.work.map((data) => (
+		<p className={classes.detail}>{data}</p>
+	));
 	return (
 		<>
 			<div className={classes["individual"]}>
 				<div>
-					<h3>フロントエンドエンジニア</h3>
+					<h3>{props.data.profession}</h3>
 					<div className={classes.company}>
-						<p>株式会社イデアイメージ</p>
-						<p>2021/5 - 現在(10ヶ月)</p>
+						<p>{props.data.companyName}</p>
+						<p>{props.data.period}</p>
 					</div>
-					<p className={classes.detail}>
-						- WordPressを用いたサイト構築、運用、保守
-					</p>
+					{work}
 				</div>
 			</div>
 		</>
