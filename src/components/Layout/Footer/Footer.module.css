@@ -2,9 +2,15 @@
 	background-color: #b92978;
 	border-top: #dd69a8 solid 2px;
 	color: #fff;
+	display: flex;
+	height: 80px;
+	padding: 0 7%;
+	align-items: center;
 }
 .footer a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.5rem;
+	margin: 10px 0;
+	font-weight: bold;
 }
