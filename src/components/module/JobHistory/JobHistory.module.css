@@ -1,11 +1,19 @@
 .job-history {
-  margin: 0 0 0 50px;
-  width: 60%;
+	margin: 0 0 0 50px;
+	width: 60%;
 }
-
+.remarks {
+	display: flex;
+	align-items: center;
+}
+.remarks svg {
+	color: #b92978;
+	font-size: 1.5rem;
+	margin: 0 10px 0 0;
+}
 @media screen and (max-width: 767px) {
-  .job-history {
-    margin: 0;
-    width: 100%;
-  }
+	.job-history {
+		margin: 0;
+		width: 100%;
+	}
 }

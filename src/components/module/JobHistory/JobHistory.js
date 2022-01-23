@@ -2,6 +2,8 @@ import classes from "./JobHistory.module.css";
 import Individual from "./Individual";
 import Skills from "../../module/Skills/Skills";
 
+import { AiFillCheckCircle } from "react-icons/ai";
+
 const JobHistory = (props) => {
 	const individual = props.jobHistoryList.map((data) => (
 		<Individual key={data.id} data={data} />
@@ -12,7 +14,8 @@ const JobHistory = (props) => {
 	const remarks = (
 		<>
 			<h2>備考</h2>
-			<div className={classes["individual"]}>
+			<div className={classes["remarks"]}>
+				<AiFillCheckCircle />
 				<p>{props.remarks}</p>
 			</div>
 		</>
