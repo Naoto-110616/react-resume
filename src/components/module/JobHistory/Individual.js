@@ -2,7 +2,9 @@ import classes from "./Individual.module.css";
 
 const Individual = (props) => {
 	const work = props.data.work.map((data) => (
-		<p className={classes.detail}>{data}</p>
+		<p key={`${data.id}_${data}`} className={classes.detail}>
+			{data}
+		</p>
 	));
 	return (
 		<>
