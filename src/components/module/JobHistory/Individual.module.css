@@ -1,7 +1,7 @@
 .individual {
 	display: flex;
 	align-items: baseline;
-	margin: 40px 0 0 0;
+	margin: 20px 0 0 0;
 }
 .individual div {
 	width: 100%;

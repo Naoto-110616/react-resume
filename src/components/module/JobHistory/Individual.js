@@ -10,7 +10,7 @@ const Individual = (props) => {
 				<div>
 					<h3>{props.data.profession}</h3>
 					<div className={classes.company}>
-						<p>{props.data.companyName}</p>
+						<p>{props.data.name}</p>
 						<p>{props.data.period}</p>
 					</div>
 					{work}
