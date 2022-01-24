@@ -22,7 +22,8 @@ const JobHistory = (props) => {
 	);
 	return (
 		<div className={classes["job-history"]}>
-			<h2>職歴</h2>
+			{!props.cv && <h2>職歴</h2>}
+			{props.cv && <h2>職務経歴書</h2>}
 			{individual}
 			<h2>学歴</h2>
 			{educationalBg}
