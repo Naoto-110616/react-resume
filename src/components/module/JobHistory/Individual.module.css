@@ -26,6 +26,8 @@
 .detail {
 	color: #666;
 	margin: 0 0 0 0;
+	text-indent: -7px;
+	padding: 0px 0 0 7px;
 }
 @media screen and (max-width: 767px) {
 	.company {
