@@ -18,7 +18,7 @@ const jobHistoryList = [
 	},
 	{
 		id: "j2",
-		profession: "社内サーバー監視、保守",
+		profession: "サーバー監視",
 		name: "株式会社アドライン",
 		period: "2020/7 - 2020/12 (6ヶ月)",
 		work: [
